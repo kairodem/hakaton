@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>YoungCode Project</title>
+	<title>Mawhibah | A social network for talented & skilled people</title>
 	<link rel="stylesheet" type="text/css" href="assets/css/main.css?<?php echo rand(); ?>">
 	<link rel="stylesheet" type="text/css" href="assets/css/reset.css?<?php echo rand(); ?>">
 	<script type="text/javascript" src="assets/scripts/app.js?<?php echo rand(); ?>"></script>
