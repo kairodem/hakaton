@@ -12,13 +12,15 @@ a:visited{
 	display: none;
 	transition-duration : 0.2s;
 }
+.unfocus{
+	background-color: rgba(97,231,134,0.5) !important;
+}
 input{
 	outline: none !important;
 }
 body{
 	background-color: #fcfaf9;
 	background-size: cover;
-	font-family: 'Cairo', sans-serif;
 	font-family: 'Roboto', sans-serif !important;
 	transition-duration: 0.2s;
 	position: relative;
@@ -50,6 +52,214 @@ body{
 	border-bottom: #61e786 solid 2px;
 	font-weight: 500;
 	color: #d5f2e3;
+}
+.nav ul{
+	float: right;
+	color: #FFFFFF;
+	margin-top: 30px;
+	font-size: 18px;
+	font-weight: 300;
+}
+.nav ul li{
+	display: inline;
+}
+.nav ul li a:hover{
+	transition-duration: 0.2s;
+	color: #61e786;
+}
+.nav ul li a{
+	transition-duration: 0.2s;
+}
+.nav ul li#sep{
+	margin-right: 20px;
+}
+.midCont{
+	width: 70%;
+	height: 400px;
+	margin-top: 100px;
+}
+.midCont .left{
+	width: 40%;
+	height: auto;
+	float:left;
+}
+.midCont .left h2{
+	font-weight: 600;
+	font-size: 30px;
+	color: #d5f2e3;
+}
+.midCont .left p{
+	font-size: 18px;
+	text-align: left;
+	color: #d5f2e3;
+	font-weight: 300;
+	line-height: 1.5;
+}
+.midCont .right{
+	width: 40%;
+	height: auto;
+	float: right;
+}
+.form{
+	width: 100% !important;
+	height: 300px;
+}
+.form ul{
+	color: #FFFFFF;
+	font-size: 20px;
+	font-weight: 300;
+	width: 100%;
+}
+.form ul li#l{
+	float: left;
+	width: calc(50% - 1px) !important;
+	border-right: #d5f2e3 solid 1px;
+	transition-duration: 0.2s;
+	border-top-left-radius: 3px;
+}
+
+.form ul li#r{
+	float: right;
+	transition-duration: 0.2s;
+	border-top-right-radius: 3px;
+}
+.form ul li{
+	display: inline-block;
+	width: 50%;
+	background-color: #61e786;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	cursor: pointer;
+	transition-duration: 0.2s;
+}
+.formrest{
+	clear: both;
+	width: calc(100% - 2px) !important;
+	border: #61e786 solid 1px;
+	border-bottom-right-radius: 3px;
+	border-bottom-left-radius: 3px;
+}
+.formrest input{
+	background-color: transparent;
+	border:0;
+	border-bottom: #d5f2e3 solid 1px;
+	margin-bottom: 20px;
+	width: 70%;
+	height: 30px;
+	color: #d5f2e3;
+	font-size: 14px;
+	transition-duration: 0.2s;
+}
+.formrest input#btnsubmit{
+	width: 20%;
+	border: #d5f2e3 solid 1px;
+	border-radius: 2px;
+	cursor: pointer;
+	transition-duration: 0.2s;
+}
+.formrest form{
+	margin-top: 10px;
+	transition-duration: 0.2s;
+}
+.anim{
+	animation: fade 0.2s ease-in;
+}
+.slide{
+	animation: slide 0.2s ease-in-out forwards;
+}
+.slide2{
+	animation: slidez 0.2s ease-in-out forwards;
+}
+.downarr{
+	width: 40px;
+	height: 40px;
+	background-color: rgba(97,231,134,.3);
+	border-radius: 50%;
+	animation: arrow 3s ease-in infinite;
+	cursor: pointer;
+	display: inline-block;
+}
+.downarr img{
+	margin-top: 5px;
+	margin-right: 1px;
+}
+.uparr{
+	width: 40px;
+	height: 40px;
+	background-color: rgba(97,231,134,.3);
+	border-radius: 50%;
+	animation: arrow 3s ease-in infinite;
+	cursor: pointer;
+	display: inline-block;
+	margin-left: 20px;
+}
+.uparr img{
+	margin-top: 5px;
+	transform: rotate(180deg);
+}
+#abt{
+	animation: arrow 3s ease-in infinite;
+	color: #FFFFFF;
+}
+#hom{
+	animation: arrow 3s ease-in infinite;
+	color: #FFFFFF;
+	position: relative;
+	left: 10px;
+}
+
+.midCont .aboutUs h2{
+	font-weight: 600;
+	font-size: 30px;
+	color: #d5f2e3;
+}
+.midCont .aboutUs p{
+	font-size: 18px;
+	color: #d5f2e3;
+	font-weight: 300;
+	line-height: 1.5;
+}
+
+
+
+
+
+
+
+
+@keyframes arrow{
+	0%{
+		position: relative;
+		top: -5px;
+	}
+	50%{
+		position: relative;
+		top: 5px;
+	}
+	100%{
+		position: relative;
+		top: -5px;
+	}
+}
+@keyframes slide{
+	from{
+		position: relative;
+		bottom: 0;
+	}
+	to{
+		position: relative;
+		bottom: 750px;
+	}
+}
+@keyframes slidez{
+	from{
+		position: relative;
+		bottom: 0;
+	}
+	to{
+		position: relative;
+		bottom: 750px;
+	}
 }
 @keyframes fade{
 	from{
