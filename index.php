@@ -8,9 +8,9 @@
 	<link href="https://fonts.googleapis.com/css?family=Cairo:200,300,400,600,700,900&amp;subset=arabic" rel="stylesheet">
 </head>
 <body>
-	<div class="header">
+	<div class="contentTop">
 		<div class="wrapper">
-		<center><div class="logo"><h1>Mawhibah</h1></div></center>
+			
 		</div>
 	</div>
 </body>
