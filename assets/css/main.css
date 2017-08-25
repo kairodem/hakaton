@@ -17,6 +17,7 @@ input{
 }
 body{
 	background-color: #fcfaf9;
+	background-size: cover;
 	font-family: 'Cairo', sans-serif !important;
 	transition-duration: 0.2s;
 }
