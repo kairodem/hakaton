@@ -1,0 +1,26 @@
+a {
+   outline: 0;
+}
+a:link{
+	text-decoration: none !important;
+	color: inherit;
+}
+a:visited{
+	color: inherit;
+}
+.hidden{
+	display: none;
+	transition-duration : 0.2s;
+}
+input{
+	outline: none !important;
+}
+body{
+	background-color: #fcfaf9;
+	font-family: sans-serif !important;
+	transition-duration: 0.2s;
+}
+.wrapper{
+  	width: 90% !important;
+  	margin: 0 auto !important;
+}

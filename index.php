@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<title>YoungCode Project</title>
 	<link rel="stylesheet" type="text/css" href="assets/css/main.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
 	<script type="text/javascript" src="assets/scripts/app.js"></script>
