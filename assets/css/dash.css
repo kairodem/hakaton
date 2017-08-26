@@ -1,0 +1,69 @@
+a {
+   outline: 0;
+}
+a:link{
+	text-decoration: none !important;
+	color: inherit;
+}
+a:visited{
+	color: inherit;
+}
+.hidden{
+	display: none;
+	transition-duration : 0.2s;
+}
+.wrapper{
+  	width: 90% !important;
+  	margin: 0 auto !important;
+}
+.profileCover{
+	width: 100%;
+	height: 300px;
+	background-color: red;
+	background-image: url('../img/w.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	position: relative;
+	z-index: 1;
+}
+.overlay{
+	z-index: 3;
+	width: 100%;
+	height: 300px;
+	background-color: rgba(236,78,32,0.6);
+}
+.profilePic{
+	width: 200px;
+	height: 200px;
+	position: relative;
+	top: 40px;
+	border-radius: 50%;
+	border: #ffffff solid 5px;
+	background-image: url(../img/avatar.svg);
+	background-size: 150px 150px;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
